@@ -1,0 +1,45 @@
+.App-header {
+  text-align: center;
+  height: 300px;
+  color: #fff;
+  background-image: url("services_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.App-title {
+  font-size: 2.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+nav ul {
+  color: white;
+  margin: 0;
+  padding: 20px 12%;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#sort {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+}
